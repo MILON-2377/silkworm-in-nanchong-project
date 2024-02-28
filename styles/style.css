@@ -12,6 +12,12 @@ body {
 }
 
 /* header section */
+.header-container {
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background-color: #4f626a;
+}
 
 /* navbar logo container */
 .logo-container{
@@ -41,6 +47,13 @@ body {
 
 .navbar-keywords-container li {
     cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-keywords-container li:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .navbar-container {
@@ -204,10 +217,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    margin: 0 auto;
     background-color: #4f626a08;
-    padding: 10px;
-    /* border: 2px white solid; */
 }
 
 /* gallery-box-container */
@@ -216,6 +226,7 @@ hr {
     border-radius: 12px;
     background-color: rgba(232, 229, 229, 0.1);
     margin: 0 auto;
+    padding: 0 15px 15px;
 }
 
 .h2-title-gallery {
