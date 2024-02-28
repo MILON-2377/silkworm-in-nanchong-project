@@ -56,23 +56,31 @@ body {
 /* banner container section */
 .banner-container {
     margin-top: 20px;
-}
-
-/* banner container 1 */
-.banner-container-1,
- .banner-container-2,
-  .banner-cotainer-3,
-  .banner-container-4,
-  .banner-container-5 {
-    height: 400px;
     width: 95%;
     margin: 0 auto;
     border-radius: 12px;
     background-image: url("../images/butterfly-5105971_1920.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 26px;
+}
+
+/* banner container 1 */
+.banner-container-1,
+.banner-container-2,
+.banner-cotainer-3,
+.banner-container-4,
+.banner-container-5 {
+    height: 400px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 12px;
+    /* background-image: url("../images/butterfly-5105971_1920.jpg"); */
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -94,23 +102,244 @@ body {
 /* banner container 2 */
 .banner-container-2{
     display: none;
-    background-image: url("../images/craft-6537242_1920.jpg");
 }
 
 /* banner container 3 */
 .banner-cotainer-3 {
     display: none;
-    background-image: url("../images/istockphoto-471427947-1024x1024.jpg");
 }
 
 /* banner container 4 */
 .banner-container-4{
     display: none;
-    background-image: url("../images/silkworm-2456852_1920.jpg");
 }
 
 /* banner container 5 */
 .banner-container-5 {
+    display: none;
+}
+
+/* nanchong culture description section */
+.nanchong-culture-des-container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.descript-culture, .silk-culture {
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* title */
+.h2-title {
+    color: white;
+    margin: 0 auto;
+}
+
+/* culture descripe img 1 */
+.silk-culture {
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 26px;
+}
+.silk-img1 {
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* title container */
+.title-container {
+    height: 100px;
+   }
+
+.des {
+    margin-top: 36px;
+}
+
+
+/* about us section  */
+.about-us-des {
+    color: white;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+/* about us title */
+.about-us-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 26px;
+}
+
+/* about us para box */
+.about-us-para-box {
+    width: 85%;
+    background-color: rgba(232, 229, 229, 0.1);
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h3 {
+    font-size: 25px;
+}
+.p {
+    margin-top: -40px;
+}
+
+/* gallery container section */
+.gallery-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 0 auto;
+    background-color: #4f626a08;
+    padding: 10px;
+    /* border: 2px white solid; */
+}
+
+/* gallery-box-container */
+.gallery-box-contain {
+    width: 95%;
+    border-radius: 12px;
+    background-color: rgba(232, 229, 229, 0.1);
+    margin: 0 auto;
+}
+
+.h2-title-gallery {
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.gallery {
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 26px;
+}
+
+/* gallery title */
+.gallery-title {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 28px;
     display: flex;
-    background-image: url("../images/white-silkworm-with-blurred-background.jpg");
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* footer section */
+
+.footer {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 56px;
+}
+
+/* description and socila media container */
+.description-social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer title */
+.footer-title {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* title and des container section */
+.title-desc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer-des {
+    color: rgb(252, 246, 246);
+    width: 50%;
+    margin-left: 22px;
+    line-height: 25px;
+}
+
+/* footer social media container */
+.social-media-container {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-title {
+    color: white;
+}
+
+/* footer kekkywords container  */
+.footer-keywords-container {
+    color: white;
+    width: 35%;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 22px;
+}
+
+/* keyword box */
+.keyworeds-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-keywords-container li a, .privacy {
+    cursor: pointer;
+    color: white;
+}
+
+.privacy {
+    margin-top: 30px;
+    margin-right: 35px;
 }
